@@ -1,5 +1,7 @@
--- C:\Scripts_Lua\lua54.exe "C:\Scripts_Lua\Scripts\CursoLua\DesafioLua.lua"
 --[[
+
+Linha de comando
+C:\Scripts_Lua\lua54.exe "C:\Scripts_Lua\Scripts\CursoLua\DesafioLua.lua"
 
 Nome da criatura
 Descrição
@@ -28,7 +30,6 @@ Habilidades
 |
 ===================================================
 
-
 ]]
 
 -- Habilitar UTF-8 no terminal
@@ -38,9 +39,8 @@ os.execute("chcp 65001")
 -- Criatura
 local monsterName = "CREEPER"
 local description = "Um monstro furtivo com um temperamento explosivo."
--- para inserir um emoji, pressionar a tecla Windows+"." e comece a digitar o nome do emoji desejado
+-- para inserir um emoji, pressione a tecla Windows+"." e comece a digitar o nome do emoji desejado
 local emoji = "💥"
---local emoji = "-"
 local sound = "Tssssss"
 local favoriteTime = "Noturno"
 local item = "Pólvora"
